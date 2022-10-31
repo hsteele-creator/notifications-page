@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+.outer-container {
+    margin: 0 10px;
+}
+
+
+.comment {
+    margin: 10px 0;
+    background-color: lightblue;
+}
