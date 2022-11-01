@@ -1,17 +1,50 @@
 * {
     box-sizing: border-box;
+    font-size: 12px;
 }
 
 html, body {
     margin: 0;
 }
 
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-row h2 {
+    font-size: 18px;
+    font-style: bold;
+}
+
+.header-row p {
+    color: grey;
+    padding-top: 8px;
+}
+
 .outer-container {
     margin: 0 10px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 .comment {
     margin: 10px 0;
     background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    padding: 0 10px;
+}
+
+.text  {
+    margin-left: 20px;
+    width: 70%;
+}
+
+.comment img {
+    width: 30px;
 }
