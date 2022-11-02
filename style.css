@@ -29,15 +29,15 @@ html, body {
     margin-right: auto;
 }
 
-
 .comment {
     margin: 10px 0;
-    background-color: lightblue;
+    background-color: white;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: top;
     text-align: left;
     padding: 0 10px;
+    border-radius: 6px;
 }
 
 .text  {
@@ -46,5 +46,25 @@ html, body {
 }
 
 .comment img {
-    width: 30px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.thank-you {
+    border: .5px solid grey;
+    padding: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#read {
+    border: none;
+    background-color: white;
+    color: grey;
+}
+
+.marked {
+    background-color: hsl(210, 60%, 98%);
 }
