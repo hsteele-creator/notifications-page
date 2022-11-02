@@ -68,3 +68,16 @@ html, body {
 .marked {
     background-color: hsl(210, 60%, 98%);
 }
+
+@media(min-width:1200px) {
+
+    body {
+        background-color: hsl(210, 60%, 98%);
+    }
+
+    .outer-container {
+        width: 1000px;
+        background-color: white;
+        padding: 20px 50px;
+    }
+}
